@@ -1,0 +1,143 @@
+.aboutWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.aboutBio {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* justify-content: center; */
+  width: 100%;
+}
+
+/* .aboutBio1,
+.aboutBio2 {
+  display: flex;
+  flex: 5;
+} */
+
+.aboutTitle {
+  font-size: 2vw;
+  line-height: 1px;
+  margin-top: 20px;
+}
+
+.titleUnderline {
+  width: 100%;
+  height: 3px;
+  background-color: #f2ddbb;
+  margin: 5px auto;
+}
+
+.sub-title-underline {
+  width: 100%;
+  height: 1px;
+  background-color: #f2ddbb;
+  line-height: 1px;
+  /* margin: 5px auto; */
+}
+
+.aboutDetails {
+  font-size: 1.25vw;
+  line-height: 1.6;
+  /* color: #aaa; */
+}
+
+.aboutDetails p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.quickFactsContainer {
+  text-align: center;
+  color: #f2ddbb;
+  width: 100%;
+}
+
+.quickFactsContainer h3 {
+  font-size: 1.5rem;
+  width: fit-content;
+  line-height: 1px;
+}
+
+.factsList {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1rem;
+  font-size: 1.2rem;
+}
+
+.factItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 1.5rem 1rem;
+  border-right: 1px solid #555;
+  width: 100%;
+  max-width: 400px;
+  justify-content: center;
+}
+
+.factItem:last-child {
+  border-right: none;
+}
+
+.factIcon {
+  font-size: 1.15rem;
+  color: #ffddaa;
+}
+
+.factText {
+  text-align: left;
+}
+
+.factText strong {
+  font-weight: bold;
+  color: #ffddaa;
+}
+
+.skills-wrapper {
+  width: 100%;
+}
+
+/* Skills Section */
+.skillsContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.skills-wrapper h3 {
+  font-size: 1.5rem;
+  /* margin-bottom: 1.5rem; */
+  /* color: #ffddaa; */
+  width: fit-content;
+  line-height: 1px;
+}
+
+.skillsCategory {
+  text-align: left;
+}
+
+.skillPill {
+  display: inline-block;
+  padding: 8px 16px;
+  margin: 5px 10px 5px 0px;
+  border-radius: 50px;
+  background-color: #444;
+  color: #f2ddbb;
+  font-size: 0.9rem;
+  cursor: pointer;
+  gap: 2px;
+}
+
+.skillsCategory .skillPill:last-child
+{
+  margin-right: 0px;
+}

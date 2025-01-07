@@ -1,0 +1,49 @@
+.introductionSection,
+.profileSection {
+  flex: 5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profileImage {
+  border-radius: 10px;
+}
+
+.introductionSection {
+  justify-content: flex-start;
+  align-items: start;
+  flex-direction: column;
+}
+
+.introductionSection h1 {
+  margin: 0;
+  font-size: 4.5vw;
+  font-weight: 700;
+  line-height: 120px;
+  /* color: #3e4751; */
+}
+
+.introductionSection p {
+  margin: 20px 0px 0px 0px ;
+  font-size: 2vw;
+  font-weight: 500;
+  line-height: 56px;
+  /* color: #aaa; */
+}
+
+.introductionSection div div {
+  margin: 0;
+  gap: 1vw;
+  display: inline-flex;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 56px;
+}
+
+.social-icons-section{margin-top: 10px;}
+
+.social-icons {
+  cursor: pointer;
+}
+

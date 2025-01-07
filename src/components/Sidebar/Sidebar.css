@@ -1,0 +1,26 @@
+.links {
+  justify-content: end;
+  display: flex;
+  text-decoration: none;
+  flex-direction: column;
+  align-items: start;
+  padding: 20px 30px 15px 10px;
+  border-radius: 12px;
+  margin: 0px;
+  list-style: none;
+  gap: 1vw;
+  background-color: #1e1e1e
+}
+
+.links a {
+  color: #f2ddbb;
+  text-decoration: none;
+}
+
+.links a:hover {
+  cursor: pointer;
+}
+
+.socials {
+  display: flex;
+}
